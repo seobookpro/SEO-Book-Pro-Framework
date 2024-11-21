@@ -1,0 +1,70 @@
+<h3>Typography Heading Titles</h3>
+
+  <div class="heading-titles">
+          <h1 class="typo-headings"><pre>&#60;h1&#62;&#60;/h1&#62;</pre> Heading Title H1</h1>
+          <h2 class="typo-headings"><pre>&#60;h2&#62;&#60;/h2&#62;</pre> Heading Title H2</h2>
+          <h3 class="typo-headings"><pre>&#60;h3&#62;&#60;/h3&#62;</pre> Heading Title H3</h3>
+          <h4 class="typo-headings"><pre>&#60;h4&#62;&#60;/h4&#62;</pre> Heading Title H4</h4>
+          <h5 class="typo-headings"><pre>&#60;h5&#62;&#60;/h5&#62;</pre> Heading Title H5</h5>
+          <h6 class="typo-headings"><pre>&#60;h6&#62;&#60;/h6&#62;</pre> Heading Title H6</h6>
+  </div>
+
+  <div class="heading-titles-tools">
+         <div class="heading-titles-col-html">
+          <span class="view">html</span> 
+          <span class="material-symbols-outlined">html</span>
+        </div>
+
+        <div class="heading-titles-col-codepen">
+          <a href="https://github.com/seobookpro/SEO-Book-Pro-Framework/tree/main" title="SEO Book Pro Framework Beta - Animated Accordions | github.com" target="_blank" rel="author">
+            <span class="view">View Code on</span>
+            <img src="https://seobookpro.com/sbpf/vendors/logos/github.png" title="SEO Book Pro Framework Beta - Animated Accordions" alt="SEO Book Pro Framework Beta - Animated Accordions" width="95" height="18">
+          </a>
+          
+          <a href="https://codepen.io/SEO-Book-Pro-Technical-SEO/pen/XWvvJyZ" title="SEO Book Pro Framework Beta - Typography  Heading Titles | Edit Code on Code Pen codepen.io" target="_blank" rel="author">
+            <img src="https://seobookpro.com/sbpf/vendors/logos/codepen.png" title="SEO Book Pro Framework Beta - Typography  Heading Titles | Edit Code on Code Pen codepen.io" alt="SEO Book Pro Framework Beta - Typography  Heading Titles | Edit Code on Code Pen codepen.io" width="85" height="14">
+          </a>
+        </div>
+        
+        <div class="heading-titles-col-copy-code">
+          <button role="button" type="button" class="copy-button" data-target="copyHeadingTitlesCode"><span class="material-symbols-outlined">content_copy</span></button>
+          <button id="copyButton"><span class="material-symbols-outlined">content_copy</span></button>
+        </div>
+      
+  </div>
+
+  <div class="heading-titles-code">
+      <pre>
+      <code id="copyHeadingTitlesCode">
+        <div class="heading-titles-codes">
+        <h1 class="typo-headings">Heading Title H1</h1>
+        <h2 class="typo-headings">Heading Title H2</h2>
+        <h3 class="typo-headings">Heading Title H3</h3>
+        <h4 class="typo-headings">Heading Title H4</h4>
+        <h5 class="typo-headings">Heading Title H5</h5>
+        <h6 class="typo-headings">Heading Title H6</h6>
+        </div>
+      </code>
+      </pre>
+
+      <script>
+          const copyButton = document.getElementById('copyButton');
+          const codeBlock = document.getElementById('copyHeadingTitlesCode');
+        
+          copyButton.addEventListener('click', () => {
+            // Copy the code to the clipboard
+            navigator.clipboard.writeText(codeBlock.innerHTML)
+              .then(() => {
+                // Optional: Provide feedback to the user
+                copyButton.textContent = 'Copied!';
+              })
+              .catch(err => {
+                console.error('Failed to copy code: ', err);
+              });
+          });
+      </script>
+      </div>
+
+      </div>
+    </div>
+</div>
